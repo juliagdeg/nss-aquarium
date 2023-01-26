@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(160, 212, 204);
+}
+
+.pageHeader {
+    font-family: url('https://fonts.googleapis.com/css?family=Irish+Grover');
+    font-family: "Irish Grover", cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;        
+    font-size: 36px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: rgba(193, 136, 240, 0.83);
+    text-shadow: rgb(240, 217, 226) -5px 1px 6px;
+}
+
+.fishHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0.5em;
+    margin-right: 22.8em;
+    margin-left: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: 27px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 188, 112, 0.83);
+}
+
+.fish_list {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding: 2px;
+    align-items: center;
+    margin: 0.5m;
+}
+
+.fish_name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.fish_image {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    border: 4px solid #f9e2e2;
+}
+
+.fish_container {
+    flex: 0 0 calc(33.33% - 20px);
+    width: 75%;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: khaki;
+}
+
+.fish_detail {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: khaki;
+    text-align: center;
+}
+
+.quotesHeader {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(185, 222, 255);
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 21.2em;
+}
+
+.quotes_container {
+    flex: 0 0 calc(33.33% - 20px);
+    justify-content: space-between;
+    text-align: left;
+    margin: 0.5em;
+    width: 75%;
+    padding: 14px 20px;
+    background-color: lightgray;
+    float: left;
+    position: relative;
+}
+
+.quote_details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.locationsHeader {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 188, 112, 0.83);
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 21.2em;
+}
+
+.locations_container {
+    flex: 0 0 calc(33.33% - 20px);
+    width: 75%;
+    padding: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0.5em;
+    margin-right: 21.2em;
+}
+
+.locations_list {
+    flex: 0 0 calc(33.33% - 20px);
+    justify-content: left;
+    text-align: left;
+    margin: 0.5em;
+    width: 75%;
+    padding: 14px 20px;
+    background-color: khaki;
+    float: left;
+    position: relative;
+}
+
+.locationimg {
+    width: 50%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location_name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.tank_tips {
+    width: 25%;
+    justify-content: left;
+    padding: 2em;
+    position: absolute;
+    top: 6.5em;
+    margin-right: 0.5em;
+    right: 0;
+    float: right;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+.tankHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.2em;
+    margin-left: 0.5em;
+    bottom: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    float: left;
+    font-size: 24px;
+    background-color: rgb(209, 209, 248);
+}
+
+.tankimg {
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    border: 10px solid #f9e2e2;
+}
+
+.tank_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    width: 25%;
+    background-color: rgb(246, 241, 229);
+}
